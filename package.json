@@ -1,20 +1,35 @@
 {
-  "name": "cmp",
+  "name": "microtree",
   "version": "1.0.3",
   "main": "dist/app.js",
   "types": "dist/app.d.ts",
   "bin": {
-    "cmp": "dist/app.js"
+    "microtree": "dist/app.js"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "dev": "ts-node-dev --transpile-only src/app.ts",
     "build": "tsc",
     "start": "node dist/app.js"
   },
-  "keywords": [],
+  "keywords": [
+    "microtree",
+    "microservices",
+    "folder-structure",
+    "scaffolding",
+    "cli",
+    "nodejs",
+    "typescript",
+    "express",
+    "boilerplate",
+    "project-generator"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A CLI tool to generate structured microservice projects and folder architecture.",
   "dependencies": {
     "chalk": "^5.4.1",
     "cors": "^2.8.5",
